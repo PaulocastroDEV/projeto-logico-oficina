@@ -46,7 +46,7 @@ create table orders (
 );
 
 -- -----------------------------------------------------
--- criar tabela Analista da Manutenção
+-- criar tabela do Mecânico Analista
 -- -----------------------------------------------------
 create table analist (
   idAnalist int auto_increment,
@@ -57,7 +57,7 @@ create table analist (
 );
 
 -- -----------------------------------------------------
--- criar tabela Manuteção Corretiva
+-- criar tabela Equipe de concerto
 -- -----------------------------------------------------
 create table Corretiva (
   idCorretiva int auto_increment,
@@ -67,7 +67,7 @@ create table Corretiva (
 );
 
 -- -----------------------------------------------------
--- criar tabela Manutenção Preventiva
+-- criar tabela Equipe de revisão
 -- -----------------------------------------------------
 create table Preventiva (
   idPreventiva int auto_increment,
